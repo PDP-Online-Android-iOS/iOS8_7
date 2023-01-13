@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641713D8296ECA0900CC79D5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641713D7296ECA0800CC79D5 /* HomeScreen.swift */; };
+		641A7326296FE59B00FF0285 /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A7325296FE59B00FF0285 /* CreateScreen.swift */; };
+		641A7328296FE5A300FF0285 /* EditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A7327296FE5A300FF0285 /* EditScreen.swift */; };
+		641A732A296FE86100FF0285 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A7329296FE86100FF0285 /* EditViewModel.swift */; };
 		64E335F6296D5A77001E2EBC /* SwiftUIMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E335F5296D5A77001E2EBC /* SwiftUIMVVMApp.swift */; };
-		64E335F8296D5A77001E2EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E335F7296D5A77001E2EBC /* ContentView.swift */; };
 		64E335FA296D5A79001E2EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E335F9296D5A79001E2EBC /* Assets.xcassets */; };
 		64E335FD296D5A79001E2EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E335FC296D5A79001E2EBC /* Preview Assets.xcassets */; };
+		64EBE7DD296ECD99000453ED /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBE7DC296ECD99000453ED /* Network.swift */; };
+		64EBE7E0296ECDC3000453ED /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBE7DF296ECDC3000453ED /* Contact.swift */; };
+		64EBE7E2296ECE10000453ED /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBE7E1296ECE10000453ED /* HomeViewModel.swift */; };
+		64EBE7E5296ED6AA000453ED /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBE7E4296ED6AA000453ED /* ContactCell.swift */; };
+		D87E17F03AD42081377C80EC /* Pods_SwiftUIMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974206B4FB9B217AAFDED4A /* Pods_SwiftUIMVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C345BBCD750BDC7E2C87D77 /* Pods-SwiftUIMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMVVM.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMVVM/Pods-SwiftUIMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		38D76C50AD2790655F27FA6A /* Pods-SwiftUIMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMVVM.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMVVM/Pods-SwiftUIMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		641713D7296ECA0800CC79D5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		641A7325296FE59B00FF0285 /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
+		641A7327296FE5A300FF0285 /* EditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScreen.swift; sourceTree = "<group>"; };
+		641A7329296FE86100FF0285 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
 		64E335F2296D5A77001E2EBC /* SwiftUIMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E335F5296D5A77001E2EBC /* SwiftUIMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMApp.swift; sourceTree = "<group>"; };
-		64E335F7296D5A77001E2EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64E335F9296D5A79001E2EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E335FC296D5A79001E2EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64EBE7DC296ECD99000453ED /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		64EBE7DF296ECDC3000453ED /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		64EBE7E1296ECE10000453ED /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		64EBE7E4296ED6AA000453ED /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		C974206B4FB9B217AAFDED4A /* Pods_SwiftUIMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87E17F03AD42081377C80EC /* Pods_SwiftUIMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19549954B0870F2662949918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C974206B4FB9B217AAFDED4A /* Pods_SwiftUIMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		641713D3296EC93500CC79D5 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				641713D4296EC9DB00CC79D5 /* home */,
+				641713D6296EC9E100CC79D5 /* edit */,
+				641713D5296EC9DE00CC79D5 /* create */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		641713D4296EC9DB00CC79D5 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				641713D7296ECA0800CC79D5 /* HomeScreen.swift */,
+				64EBE7E1296ECE10000453ED /* HomeViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		641713D5296EC9DE00CC79D5 /* create */ = {
+			isa = PBXGroup;
+			children = (
+				641A7325296FE59B00FF0285 /* CreateScreen.swift */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		641713D6296EC9E100CC79D5 /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				641A7327296FE5A300FF0285 /* EditScreen.swift */,
+				641A7329296FE86100FF0285 /* EditViewModel.swift */,
+			);
+			path = edit;
+			sourceTree = "<group>";
+		};
 		64E335E9296D5A77001E2EBC = {
 			isa = PBXGroup;
 			children = (
 				64E335F4296D5A77001E2EBC /* SwiftUIMVVM */,
 				64E335F3296D5A77001E2EBC /* Products */,
+				ED7289FAED3C54F4569ED77B /* Pods */,
+				19549954B0870F2662949918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +116,11 @@
 		64E335F4296D5A77001E2EBC /* SwiftUIMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				64EBE7E3296ED6A0000453ED /* cell */,
+				64EBE7DE296ECDBE000453ED /* model */,
+				64EBE7DB296ECD8E000453ED /* network */,
+				641713D3296EC93500CC79D5 /* screens */,
 				64E335F5296D5A77001E2EBC /* SwiftUIMVVMApp.swift */,
-				64E335F7296D5A77001E2EBC /* ContentView.swift */,
 				64E335F9296D5A79001E2EBC /* Assets.xcassets */,
 				64E335FB296D5A79001E2EBC /* Preview Content */,
 			);
@@ -67,6 +135,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64EBE7DB296ECD8E000453ED /* network */ = {
+			isa = PBXGroup;
+			children = (
+				64EBE7DC296ECD99000453ED /* Network.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		64EBE7DE296ECDBE000453ED /* model */ = {
+			isa = PBXGroup;
+			children = (
+				64EBE7DF296ECDC3000453ED /* Contact.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		64EBE7E3296ED6A0000453ED /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				64EBE7E4296ED6AA000453ED /* ContactCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		ED7289FAED3C54F4569ED77B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38D76C50AD2790655F27FA6A /* Pods-SwiftUIMVVM.debug.xcconfig */,
+				1C345BBCD750BDC7E2C87D77 /* Pods-SwiftUIMVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64E33600296D5A79001E2EBC /* Build configuration list for PBXNativeTarget "SwiftUIMVVM" */;
 			buildPhases = (
+				FEB45DD57556C7B94252A830 /* [CP] Check Pods Manifest.lock */,
 				64E335EE296D5A77001E2EBC /* Sources */,
 				64E335EF296D5A77001E2EBC /* Frameworks */,
 				64E335F0296D5A77001E2EBC /* Resources */,
+				4DCF5C9A28D7AB935D96F13B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +235,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DCF5C9A28D7AB935D96F13B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMVVM/Pods-SwiftUIMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMVVM/Pods-SwiftUIMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMVVM/Pods-SwiftUIMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB45DD57556C7B94252A830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64E335EE296D5A77001E2EBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E335F8296D5A77001E2EBC /* ContentView.swift in Sources */,
+				64EBE7E5296ED6AA000453ED /* ContactCell.swift in Sources */,
+				641A7328296FE5A300FF0285 /* EditScreen.swift in Sources */,
+				64EBE7E0296ECDC3000453ED /* Contact.swift in Sources */,
+				641713D8296ECA0900CC79D5 /* HomeScreen.swift in Sources */,
 				64E335F6296D5A77001E2EBC /* SwiftUIMVVMApp.swift in Sources */,
+				641A7326296FE59B00FF0285 /* CreateScreen.swift in Sources */,
+				641A732A296FE86100FF0285 /* EditViewModel.swift in Sources */,
+				64EBE7E2296ECE10000453ED /* HomeViewModel.swift in Sources */,
+				64EBE7DD296ECD99000453ED /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +413,7 @@
 		};
 		64E33601296D5A79001E2EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D76C50AD2790655F27FA6A /* Pods-SwiftUIMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +443,7 @@
 		};
 		64E33602296D5A79001E2EBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C345BBCD750BDC7E2C87D77 /* Pods-SwiftUIMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
